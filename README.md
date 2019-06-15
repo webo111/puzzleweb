@@ -5,6 +5,7 @@
 > 安装了git for windows（或者其它git客户端）
 
 $ npm install -g hexo
+
 $ hexo init
 #### 添加theme
 $ git clone https://github.com/hexojs/hexo-theme-landscape.git themes/landscape
