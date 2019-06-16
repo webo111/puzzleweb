@@ -80,5 +80,5 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/webo111/puzzleweb.git
-  branch: publish
+  branch: gh-pages
   message: this is puzzle web
