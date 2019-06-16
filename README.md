@@ -9,17 +9,26 @@ $ npm install -g hexo
 $ hexo init
 #### 添加theme
 $ git clone https://github.com/hexojs/hexo-theme-landscape.git themes/landscape
+
 $ hexo g # 生成
+
 $ hexo s # 启动服务
 
 ```
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+## 配置二级路径为根路径
+url: https://webo111.github.io/puzzleweb
+root: /puzzleweb/
+
 deploy:
   type: git
-  repository: git@github.com:liuxianan/liuxianan.github.io.git
-  branch: master
+  repo: https://github.com/webo111/puzzleweb.git
+  branch: gh-pages
 ```
 
 $ npm install hexo-deployer-git --save
+
 $ hexo deploy
 
 ## 常见命令
