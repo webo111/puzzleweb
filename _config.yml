@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 敏敏的博客
+title: Carwo Blog
 subtitle:
 description:
-keywords: hexo
-author: webo111
-language:
+keywords: java,spring,微服务,大数据,持续集成,持续交付,CI/CD,Linux,中台,微信小程序,微信小游戏,hexo,个人博客制作
+author: carwo
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://webo111.github.io/puzzleweb
-root: /puzzleweb/
+url: https://github.com/carwo/carwoBlog.git
+root: /carwoBlog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -74,11 +74,12 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: landscape
+#theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/webo111/puzzleweb.git
-  branch: gh-pages
-  message: this is puzzle web
+  repo: https://github.com/carwo/carwoBlog.git
+  branch: master
+  message: this is carwoBlog

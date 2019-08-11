@@ -5,4 +5,4 @@ tags:
 ---
 
 ## 图片
-![netimg](/puzzleweb/images/netimg.jpg)
+![netimg](/carwoBlog/images/netimg.jpg)
