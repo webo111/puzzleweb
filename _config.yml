@@ -5,7 +5,7 @@
 # Site
 title: Carwo Blog
 subtitle:
-description:
+description: java学习笔记, 常用框架学习, 有java,spring, dubbo, RPC, 微服务,大数据,持续集成,持续交付,CI/CD,Linux,中台,微信小程序,微信小游戏,hexo,个人博客制作
 keywords: java,spring,微服务,大数据,持续集成,持续交付,CI/CD,Linux,中台,微信小程序,微信小游戏,hexo,个人博客制作
 author: carwo
 language: zh-CN
@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://github.com/carwo/carwoBlog.git
+url: https://www.carwo.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
